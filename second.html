@@ -7,11 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h2 {
+        /* h2 {
             color: crimson;
         }
         p {
-            color: blueviolet;
+            color: rgb(45, 34, 68);
+            /* font-size: 30px; */
+            /* font-size: 14pt;
+            font-size: 20px;
+        } */
+            /* #tp {
+            color: green;
+            }
+        .red-text {
+            color: red;
+        } */ */
+        p {
+            font-family: Verdana, sans-serif;
+        }
+        h2 {
+            font-size: 110%;
+            color: red;
+            background: white;
+        }
+        .note {
+            color: red;
+            background: yellow;
+            font-weight: bold;
+        }
+        p.warning{
+            background: url(warning.png) no-repeat fixed top;
+        }
+        #paragraph1 {
+            margin: 0;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        #news p {
+            color: red;
         }
     </style>
 </head>
@@ -33,11 +67,11 @@
         <section>
             <article1 id="article1">
                 <h2>Heading 1</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, hic exercitationem? Magnam numquam
+                <p id="tp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, hic exercitationem? Magnam numquam
                     dignissimos laudantium beatae possimus harum asperiores quidem?</p>
             </article>
             <article2 id="article2">
-                <h2>Heading 2</h2>
+                <h2 class="red-text">Heading 2</h2>
                 <p>Veniam corrupti similique voluptate, autem accusantium ratione, praesentium alias nostrum consectetur
                     cupiditate atque reprehenderit tempore at impedit. Provident, assumenda laborum.</p>
             </article3>

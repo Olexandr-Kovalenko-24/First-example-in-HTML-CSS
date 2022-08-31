@@ -23,11 +23,11 @@
         .red-text {
             color: red;
         } */ 
-        p {
+            .green-bold{
             color: green;
             font-weight: bold;
-        }
-            .blue {
+            }
+            .blue-bold {
                 color: blue;
                 font-weight: bold;
             }
@@ -40,6 +40,9 @@
             .wine {
                 color: #b20040;
             }
+            .green-translucent {
+                color: rgba(103, 209, 103, 0.863)
+            }
     </style>
 </head>
 
@@ -48,6 +51,34 @@
         <h1>Header of the text</h1>
     </header>
     <main>
+        <article>
+            <a href="http://www.google.com">Go to Google</a> <br>
+            <span class='green-bold'>p</span> { <br>
+                <span class='green-bold'>font-family</span>: <span class="violet-grey">Verdana,</span> <span class='green-bold'>sans-serif</span>; <br>
+            } <br>
+            <span class='green-bold'>h2</span> { <br>
+                <span class='green-bold'>font-size</span>: <span class="violet-grey">110</span><span class="violet">%</span>; <br>
+                <span class='green-bold'>color: red;<br>
+                background: white</span>; <br>
+            } <br>
+            .<span class='blue-bold'>note</span> { <br>
+                <span class='green-bold'>color: red; <br>
+                background: yellow; <br>
+                font-weight: bold;</span> <br>
+            } <br>
+            <span class='green-bold'></span>p</span>.<span class='blue-bold'>warning</span> { <br >
+                <span class='green-bold'>background:</span> <span class='green-translucent'>url(warning.png)</span> <span class='green-bold'>no-repeat fixed top</span>; <br>
+            } <br>
+            #<span class='blue-bold'>paragraph1</span> { <br >
+                <span class='green-bold'>margin:</span> <span class="violet-grey">0;</span> <br>
+            } <br>
+            <span class='green-bold'>a</span>:<span class='wine'>hover</span> { <br>
+                <span class='green-bold'>text-decoration: none</span>; <br>
+            } <br>
+            #<span class='blue-bold'>news</span> <span class='green-bold'>p</span> { <br>
+                <span class='green-bold'>color: red</span>; <br>
+            } <br>
+        </article>
         <nav>
             <ol>
                 <li><a href="#article1">Some article 1</a></li>
@@ -57,34 +88,7 @@
                 <li><a href="#article5">Some article 5</a></li>
             </ol>
         </nav>
-        <article>
-            <a href="http/google.com">Go to Google</a> <br>
-            p { <br>
-                <span> Verdana, sans-serif;</span> <br>
-            } <br>
-            h2 { <br>
-                font-size: 110%; <br>
-                color: red;
-                background: white; <br>
-            } <br>
-            .note { <br>
-                color: red; <br>
-                background: yellow; <br>
-                font-weight: bold; <br>
-            } <br>
-            p.warning{ <br >
-                background: url(warning.png) no-repeat fixed top; <br>
-            } <br>
-            #paragraph1 { <br >
-                margin: 0; <br>
-            } <br>
-            a:hover { <br>
-                text-decoration: none; <br>
-            } <br>
-            #news p { <br>
-                color: red; <br>
-            } <br>
-        </article>
+
         <section>
             <article1 id="article1">
                 <h2>Heading 1</h2>
@@ -116,6 +120,7 @@
     <footer>
 
     </footer>
+
 </body>
 
 </html>

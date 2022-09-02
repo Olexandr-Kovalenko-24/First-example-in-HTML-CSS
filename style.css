@@ -24,3 +24,9 @@ a {
     margin: 10px;
     box-sizing: border-box;
 }
+body {
+    background-image: url('./images/depositphotos_77125343-stock-photo-fields-and-roads-from-above.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
